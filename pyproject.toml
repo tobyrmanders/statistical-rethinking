@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "statistical-rethinking"
+version = "0.1.0"
+description = ""
+authors = ["Toby Manders <toby.manders@invitae.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pyro-ppl = "^1.8.1"
+jupyterlab = "^3.4.3"
+ipykernel = "^6.15.0"
+numpy = "^1.23.0"
+pandas = "^1.4.3"
+ipywidgets = "^7.7.1"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
