@@ -1,5 +1,10 @@
 # statistical-rethinking
 
+## INSTALLATION
+```
+poetry install
+```
+
 
 ## LINKS
 
