@@ -13,6 +13,8 @@ numpy = "^1.23.0"
 pandas = "^1.4.3"
 ipywidgets = "^7.7.1"
 matplotlib = "^3.5.2"
+ipympl = "^0.9.1"
+jupyterlab-widgets = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 

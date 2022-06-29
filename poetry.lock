@@ -315,6 +315,26 @@ traitlets = ">=5.1.0"
 test = ["flaky", "ipyparallel", "pre-commit", "pytest-cov", "pytest-timeout", "pytest (>=6.0)"]
 
 [[package]]
+name = "ipympl"
+version = "0.9.1"
+description = "Matplotlib Jupyter Extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+ipython = "<9"
+ipython-genutils = "*"
+ipywidgets = ">=7.6.0,<8"
+matplotlib = ">=3.4.0,<4"
+numpy = "*"
+pillow = "*"
+traitlets = "<6"
+
+[package.extras]
+docs = ["myst-nb", "Sphinx (>=1.5)", "sphinx-copybutton", "sphinx-thebe", "sphinx-togglebutton", "sphinx-book-theme"]
+
+[[package]]
 name = "ipython"
 version = "8.4.0"
 description = "IPython: Productive Interactive Computing"
@@ -1281,7 +1301,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<4.0"
-content-hash = "39e0f9cf7060130067b768e56b2c75e0cc6860f3035b77b3783409aa9f8d5718"
+content-hash = "793e47a9980c50ca6f3eeb58c629db6243b2c83980ccc51c77ed1730ac1b1abc"
 
 [metadata.files]
 anyio = [
@@ -1470,6 +1490,10 @@ importlib-resources = [
 ipykernel = [
     {file = "ipykernel-6.15.0-py3-none-any.whl", hash = "sha256:b9ed519a29eb819eb82e87e0d3754088237b233e5c647b8bb0ff23c8c70ed16f"},
     {file = "ipykernel-6.15.0.tar.gz", hash = "sha256:b59f9d9672c3a483494bb75915a2b315e78b833a38b039b1ee36dc28683f0d89"},
+]
+ipympl = [
+    {file = "ipympl-0.9.1-py2.py3-none-any.whl", hash = "sha256:3505b472d412178fd115e255764d1e7e7632d6c82e9de6d62b25438a35374680"},
+    {file = "ipympl-0.9.1.tar.gz", hash = "sha256:64096900c6392d53761a68ef6dd07541cc75672f9c3f84a3bb44bf8f9bbc3787"},
 ]
 ipython = [
     {file = "ipython-8.4.0-py3-none-any.whl", hash = "sha256:7ca74052a38fa25fe9bedf52da0be7d3fdd2fb027c3b778ea78dfe8c212937d1"},
