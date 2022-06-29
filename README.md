@@ -1,12 +1,12 @@
 # statistical-rethinking
 
-## INSTALLATION
+## Installation
 ```
 poetry install
 ```
 
 
-## LINKS
+## Resources
 
 ### Slides
 - [chapter 1](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-01)
