@@ -5,20 +5,14 @@ description = ""
 authors = ["Toby Manders <toby.manders@invitae.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
+python = "^3.9"
 pyro-ppl = "^1.8.1"
-jupyterlab = "^3.4.3"
-ipykernel = "^6.15.0"
-numpy = "^1.23.0"
-pandas = "^1.4.3"
-ipywidgets = "^7.7.1"
-matplotlib = "^3.5.2"
-ipympl = "^0.9.1"
-jupyterlab-widgets = "^1.1.1"
 seaborn = "^0.11.2"
-graphviz = "^0.20"
-networkx = "^2.8.4"
-pyvis = "^0.2.1"
+matplotlib = "^3.5.3"
+pandas = "^1.4.3"
+html-table-parser-python3 = "^0.2.0"
+lxml = "^4.9.1"
+scikit-learn = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 
