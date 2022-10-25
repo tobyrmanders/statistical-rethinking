@@ -39,7 +39,7 @@
 
 ## 13.2 Varying effects and underfitting/overfitting trade-off
 - complete pooling underfits (variance low, bias high)
-- no pooling underfits (variance high, bias low)
+- no pooling overfits (variance high, bias low)
 - varying effect model edge is greatest when clusters have small data
 
 ### 13.2.5
@@ -71,4 +71,3 @@
 - does not work when the outcome of interest causes the selection bias
 
 
-## 13.5 Multilevel posterior predictions
