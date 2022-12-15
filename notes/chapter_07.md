@@ -6,7 +6,7 @@
   - information criteria or cross-validation
 
 ## 7.1 The problem with parameters
-- R2 is "explained variance
+- R2 is "explained variance"
   - problem: adding parameters improves the value
   - meaning: how much of the variation in the training data does the model retrodict?
 
@@ -21,6 +21,7 @@
 ### 7.2.2 Information and uncertainty
 - `information`: the reduction in uncertainty due to a piece of knowledge
 - `information entropy`: average log-probability of an event, H(p)
+
 
 ### 7.2.3 From entropy to accuracy
 - `divergence`: additional uncertainty induced by using probabilities from one distribution to describe another distribution
@@ -54,6 +55,12 @@
 ### 7.4.1 Cross-validation
 - LOOCV can be compute intesive
 - Pareto-smoothed importance sampling cross-validation (PSIS) uses sample importance to estimate Eout
+
+### 7.4.3 Comparint CV, PSIS, WAIC
+- CV and PSIS have have higher variance; WAIC has higher bias
+
+## 7.5 Model Comparison
+- To compare models, don't use standard error, but standard error of their differences
 
 ### 7.5.1 Information criteria
 - IC construct estimate of Eout KL divergence
