@@ -1,17 +1,18 @@
-# Chapter 4
+# Chapter 4: Geocentric Models
+- Introduction to linear regression as a Bayesian procedure. 
+- Linear regression is a descriptive model that corresponds to many process models.
 
-## 4.1
+## 4.1 Normal Distributions
 
-### 4.1.1
-
+### 4.1.1 Normal from Addition
 - Normal distributions emerge from "any process that adds together random values from the same distribution."
 - Concept: the most likely sum of this addition will be the one where all the values cancel each other out. 
 
-### 4.1.2
-- Multiplication can also produce a normal because the multiplication of small numbers is approximately the same as addition, e.g. 1.1^2 ~ 1.1x2. 
+### 4.1.2 Multiplication: Small Deviates
+- Multiplication can also produce a normal because the multiplication of small numbers is approximately the same as addition, e.g. 1.1^2 ~ 1.1 + 1.1. 
 - Applies to "small deviates."
 
-### 4.1.3
+### 4.1.3 Multiplication: Large Deviates
 - Multiplication of large  deviates can also produce normals on the log scale, since adding logs is equivalent to multiplying the original numbers.
 
 ### 4.1.4
